@@ -10763,6 +10763,22 @@ video {
   box-sizing: content-box;
 }
 
+.hover\:box-border:hover {
+  box-sizing: border-box;
+}
+
+.hover\:box-content:hover {
+  box-sizing: content-box;
+}
+
+.focus\:box-border:focus {
+  box-sizing: border-box;
+}
+
+.focus\:box-content:focus {
+  box-sizing: content-box;
+}
+
 .cursor-auto {
   cursor: auto;
 }
@@ -41403,6 +41419,22 @@ video {
     box-sizing: content-box;
   }
 
+  .sm\:hover\:box-border:hover {
+    box-sizing: border-box;
+  }
+
+  .sm\:hover\:box-content:hover {
+    box-sizing: content-box;
+  }
+
+  .sm\:focus\:box-border:focus {
+    box-sizing: border-box;
+  }
+
+  .sm\:focus\:box-content:focus {
+    box-sizing: content-box;
+  }
+
   .sm\:cursor-auto {
     cursor: auto;
   }
@@ -71947,6 +71979,22 @@ video {
   }
 
   .md\:box-content {
+    box-sizing: content-box;
+  }
+
+  .md\:hover\:box-border:hover {
+    box-sizing: border-box;
+  }
+
+  .md\:hover\:box-content:hover {
+    box-sizing: content-box;
+  }
+
+  .md\:focus\:box-border:focus {
+    box-sizing: border-box;
+  }
+
+  .md\:focus\:box-content:focus {
     box-sizing: content-box;
   }
 
@@ -102497,6 +102545,22 @@ video {
     box-sizing: content-box;
   }
 
+  .lg\:hover\:box-border:hover {
+    box-sizing: border-box;
+  }
+
+  .lg\:hover\:box-content:hover {
+    box-sizing: content-box;
+  }
+
+  .lg\:focus\:box-border:focus {
+    box-sizing: border-box;
+  }
+
+  .lg\:focus\:box-content:focus {
+    box-sizing: content-box;
+  }
+
   .lg\:cursor-auto {
     cursor: auto;
   }
@@ -133044,6 +133108,22 @@ video {
     box-sizing: content-box;
   }
 
+  .xl\:hover\:box-border:hover {
+    box-sizing: border-box;
+  }
+
+  .xl\:hover\:box-content:hover {
+    box-sizing: content-box;
+  }
+
+  .xl\:focus\:box-border:focus {
+    box-sizing: border-box;
+  }
+
+  .xl\:focus\:box-content:focus {
+    box-sizing: content-box;
+  }
+
   .xl\:cursor-auto {
     cursor: auto;
   }
@@ -163588,6 +163668,22 @@ video {
   }
 
   .\32xl\:box-content {
+    box-sizing: content-box;
+  }
+
+  .\32xl\:hover\:box-border:hover {
+    box-sizing: border-box;
+  }
+
+  .\32xl\:hover\:box-content:hover {
+    box-sizing: content-box;
+  }
+
+  .\32xl\:focus\:box-border:focus {
+    box-sizing: border-box;
+  }
+
+  .\32xl\:focus\:box-content:focus {
     box-sizing: content-box;
   }
 

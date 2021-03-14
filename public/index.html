@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<!-- <link rel="stylesheet" href="tailwind.css" /> -->
-		<link rel="stylesheet" href="css/styles.css" />
-		<title>Modal window</title>
-	</head>
-	<body>
-		<div
-			class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-			<div class="flex-shrink-0">
-				<img class="h-12 w-12" src="assets/logo.svg" alt="ChitChat Logo" />
-			</div>
-			<div>
-				<div class="text-xl font-medium text-black">ChitChat</div>
-				<p class="text-gray-500">You have a new message!</p>
-			</div>
-		</div>
-		<!-- Extracting classes using @apply -->
-		<button class="btn">Button</button>
 
-		<script src="js/main.js"></script>
-	</body>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible"
+		  content="ie=edge" />
+	<!-- <link rel="stylesheet" href="tailwind.css" /> -->
+	<link rel="stylesheet"
+		  href="css/styles.css" />
+	<title>Modal window</title>
+</head>
+
+<body>
+	<div class="container mx-auto flex justify-around bg-pink-300">
+		<div
+			 class="box-content flex-grow-5 hover:bg-yellow-400 bg-pink-500 my-5 md:bg-red-500 border-4 border-indigo-600">
+			<p class="text-center text-xl font-semibold">Sunflower</p>
+		</div>
+
+		<div
+			 class="box-content my-5 hover:bg-yellow-400 bg-green-500 border-4 border-indigo-600">
+			<p class="text-center text-xl font-semibold">Greenflower</p>
+		</div>
+
+		<div
+			 class="box-content my-5 hover:bg-yellow-400 bg-blue-500 border-4 border-indigo-600">
+			<p class="text-center text-xl font-semibold">Blueflower</p>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+
 </html>

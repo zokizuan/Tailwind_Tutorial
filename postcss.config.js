@@ -5,7 +5,7 @@ module.exports = {
     require('autoprefixer'),
   ],
   plugins: {
-    tailwindcss: {config: './tailwindcss-config.js' },
+    tailwindcss: {config: './tailwind.config.js' },
     autoprefixer: {},
   },
 }
