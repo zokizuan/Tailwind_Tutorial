@@ -6,13 +6,16 @@
 		"tailwindcss": "^2.0.3"
 	},
 	"dependencies": {
+		"npm-watch": "^0.7.0",
 		"postcss-import": "^14.0.0"
 	},
-	"name": "First",
+	"name": "first",
 	"version": "1.0.0",
 	"main": "postcss.config.js",
 	"scripts": {
-		"build": "npx postcss src/style.css -o css/styles.css"
+		"build": "npx postcss public/src/style.css -o public/css/styles.css ",
+		"live": "npx postcss -w public/src/style.css -o public/css/styles.css ",
+		"watch": "watch 'npm run build' public/src/style.css"
 	},
 	"keywords": [],
 	"author": "",
