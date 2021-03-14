@@ -10,27 +10,37 @@
 	<!-- <link rel="stylesheet" href="tailwind.css" /> -->
 	<link rel="stylesheet"
 		  href="css/styles.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+		  rel="stylesheet">
+
 	<title>Modal window</title>
 </head>
 
 <body>
-	<div class="container mx-auto flex justify-around bg-pink-300">
+	<div class="flex space-x-4 place-content-end flex-row h-screen justify-center align-middle bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
 		<div
-			 class="box-content flex-grow-5 hover:bg-yellow-400 bg-pink-500 my-5 md:bg-red-500 border-4 border-indigo-600">
-			<p class="text-center text-xl font-semibold">Sunflower</p>
+			 class="rounded-lg  flex-auto box-content flex-grow-5 h-3/4 hover:bg-yellow-400 bg-pink-500 my-5 md:bg-fus-300 border-4 border-indigo-600">
+			<h2 class=" font-normal">Sunflower</h2>
 		</div>
 
 		<div
-			 class="box-content my-5 hover:bg-yellow-400 bg-green-500 border-4 border-indigo-600">
-			<p class="text-center text-xl font-semibold">Greenflower</p>
+			 class="rounded-lg flex-auto box-content my-5 h-3/6 hover:bg-yellow-400 bg-green-500 border-4 border-indigo-600">
+			<p class="text-center text-xl font-body">Greenflower</p>
 		</div>
 
 		<div
-			 class="box-content my-5 hover:bg-yellow-400 bg-blue-500 border-4 border-indigo-600">
-			<p class="text-center text-xl font-semibold">Blueflower</p>
+			 class="rounded-lg flex-auto box-content my-5 h-4/6 hover:bg-yellow-400 bg-gray-300 border-4 border-indigo-600">
+			<p class="text-center text-xl font-normal">Blueflower</p>
 		</div>
+		
 	</div>
-
+	Sign up
+	<form>
+	  <input class="border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent ...">
+	  <button class="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 ...">
+		Sign up
+	  </button>
+	</form>
 	<script src="js/main.js"></script>
 </body>
 

@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: [
     './public/*.html',
@@ -5,7 +7,21 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    fontFamily: {
+      'dot': ['DotGothic16'],
+      'sans': ['Roboto', 'ui-sans-serif', 'system-ui', ],
+      'serif': ['ui-serif', 'Georgia', ],
+      'mono': ['ui-monospace', 'SFMono-Regular', ],
+      'display': ['Oswald', ],
+      'body': ['Inter', ],
+      'custom': ['Inter', 'sans-serif'],
+    },
+
+    extend: {
+      colors: {
+        fus: colors.fuchsia
+      },
+    },
   },
   variants: {
     extend: {
